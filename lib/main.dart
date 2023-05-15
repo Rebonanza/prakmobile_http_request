@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'OMBD Film',
+      title: 'OMDB Film',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.light().copyWith(primary: Colors.tealAccent),
